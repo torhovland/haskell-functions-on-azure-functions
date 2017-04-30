@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "triggerInput",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "fizz-buzz-requests",
+      "connection": "haskellstorage_STORAGE"
+    },
+    {
+      "name": "output",
+      "type": "queue",
+      "direction": "out",
+      "queueName": "fizz-buzz-responses",
+      "connection": "haskellstorage_STORAGE"
+    }
+  ],
+  "disabled": false
+}
